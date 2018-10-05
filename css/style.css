@@ -1336,6 +1336,20 @@ img {
   text-align: center;
 }
 
+.footer__social-icon-vk,
+.footer__social-icon-inst,
+.footer__social-icon-yt,
+.footer__social-icon-ok {
+  fill: #CBCBCB;
+}
+
+.footer__social-icon-vk:hover,
+.footer__social-icon-inst:hover,
+.footer__social-icon-yt:hover,
+.footer__social-icon-ok:hover {
+  fill: #999999;
+}
+
 .footer__address {
   margin: 0;
   margin-bottom: 15px;

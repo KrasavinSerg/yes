@@ -1411,6 +1411,17 @@ img {
   text-align: center;
 }
 
+.footer__social-icon-vk,
+.footer__social-icon-inst,
+.footer__social-icon-yt,
+.footer__social-icon-ok {
+  fill: #CBCBCB;
+
+  &:hover {
+    fill: rgb(153, 153, 153);
+  }
+}
+
 .footer__address {
   margin: 0;
   margin-bottom: 15px;
