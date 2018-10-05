@@ -762,8 +762,13 @@ img {
     font-size: 45px;
   }
 
+  .teachers__list {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
   .teachers__item {
-    width: 360px;
+    width: 33.33%;
     margin-right: 10px;
   }
 
@@ -771,13 +776,9 @@ img {
     margin-right: 0;
   }
 
-  .teachers__list {
-    justify-content: center;
-  }
-
   .teachers img {
     width: 360px;
-    height: 286px;
+    height: auto;
   }
 }
 

@@ -723,21 +723,23 @@ img {
   .teachers__title {
     font-size: 45px;
   }
+  .teachers__list {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
   .teachers__item {
-    width: 360px;
+    width: 33.33%;
     margin-right: 10px;
   }
   .teachers__item:last-child {
     margin-right: 0;
   }
-  .teachers__list {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .teachers img {
     width: 360px;
-    height: 286px;
+    height: auto;
   }
 }
 
