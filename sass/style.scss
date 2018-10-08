@@ -1418,6 +1418,11 @@ img {
   list-style: none;
 }
 
+.review__item {
+  outline: none;
+  padding: 20px 0;
+}
+
 .review__item img {
   display: block;
   margin: 0 auto;
@@ -1452,6 +1457,51 @@ img {
   color: #f5112c; 
   border-bottom: 1px solid #f5112c; 
 }
+
+// .card-1 {
+//   background-color: rgba(80, 185, 255, 0.3);
+// }
+
+// .card-2 {
+//   background-color: rgba(255, 127, 80, 0.3);
+// }
+
+// .card-3 {
+//   background-color: rgba(173, 216, 230, 0.3);
+// }
+
+.slick-prev {
+  z-index: 1001;
+  left: 25px;
+  top: 200px;
+}
+
+.slick-next {
+  z-index: 1001;
+  right: 25px;
+  top: 200px;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+  color: #f5112c;
+  opacity: 0.5;
+}
+
+.slick-dots li button:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #c5c1c1;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  background-color: #f5112c;
+  box-shadow: 0px 4px 10px 0px rgba(245, 17, 44, 0.58);
+}
+
 
 @media (min-width: 768px) {
   .review__container {
@@ -1490,17 +1540,16 @@ img {
     }
   }
 
-  .review__list {
-    padding-left: 205px;
-  }
-
   .review__item {
     position: relative;
-  }
+    padding: 20px;
+    padding-left: 200px;
 
-  .review__item img {
-    position: absolute;
-    left: -205px;
+    & img {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
   }
 
   .review__name {
@@ -1529,14 +1578,6 @@ img {
 
   .review__title {
     font-size: 45px;
-  }
-
-  .review__list {
-    padding-left: 230px;
-  }
-
-  .review__item img {
-    left: -230px;
   }
 
   .review__name {
