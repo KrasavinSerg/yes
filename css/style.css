@@ -226,7 +226,6 @@ img {
 }
 
 .promo__btn:hover {
-  background: #f53b51;
   -webkit-box-shadow: 0px 5px 18px 0px rgba(246, 27, 60, 0.55);
           box-shadow: 0px 5px 18px 0px rgba(246, 27, 60, 0.55);
 }
@@ -1566,7 +1565,6 @@ img {
 }
 
 .offer__btn:hover {
-  background: #f53b51;
   -webkit-box-shadow: 0px 5px 18px 0px rgba(246, 27, 60, 0.55);
           box-shadow: 0px 5px 18px 0px rgba(246, 27, 60, 0.55);
 }
